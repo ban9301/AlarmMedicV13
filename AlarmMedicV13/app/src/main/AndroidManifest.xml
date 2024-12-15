@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.leunglokyin03a">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Alarm Medic"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LeungLokYin03A">
+        <activity android:name=".chat"/>
+        <activity android:name=".Chat_room"/>
+        <activity android:name=".stepcounter"/>
+        <activity android:name=".Emergencycall"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".takephoto" />
+        <activity android:name=".photolist" />
+        <activity android:name=".changeRecord" />
+        <activity android:name=".form" />
+        <activity android:name=".menu"/>
+        <activity android:name=".Preference"/>
+        <activity android:name=".FirstPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".AlertReceiver"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LeungLokYin03A</string>
+    <string-array name="TimesEveryday">
+        <item>No need</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="Duration">
+        <item>No need</item>
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+    </string-array>
+</resources>

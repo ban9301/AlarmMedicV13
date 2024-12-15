@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">663565293689-hb6tgu4bg12da241tiun8rp8u9ja38te.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://medic-data-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">663565293689</string>
+    <string name="google_api_key" translatable="false">AIzaSyASU_d2ooY35evv79_thnB2TEWRSNFYO4s</string>
+    <string name="google_app_id" translatable="false">1:663565293689:android:611d2a8580603927531ca8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyASU_d2ooY35evv79_thnB2TEWRSNFYO4s</string>
+    <string name="google_storage_bucket" translatable="false">medic-data.appspot.com</string>
+    <string name="project_id" translatable="false">medic-data</string>
+</resources>

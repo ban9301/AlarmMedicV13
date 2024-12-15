@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ml"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".register">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <EditText
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/edtMediumName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Medicine Name"
+                android:paddingLeft="10dp"
+                android:textSize="50dp"
+                android:padding="10dp"
+                />
+
+        </LinearLayout>
+        <!--
+        <EditText
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/edttime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Time"
+            android:paddingLeft="10dp"
+            android:textSize="50dp"
+            android:padding="10dp"
+            />
+        -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txttime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time :"
+                android:textSize="50dp" />
+
+            <Button
+                android:id="@+id/time_button"
+                android:layout_width="152dp"
+                android:layout_height="match_parent"
+                android:text="Select" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtdate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date :"
+                android:textSize="50dp" />
+
+            <Button
+                android:id="@+id/date_button2"
+                android:layout_width="152dp"
+                android:layout_height="match_parent"
+                android:text="Select" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txtTimesEveryday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time(s) Everyday :"
+                android:textSize="20dp" />
+            <Spinner
+                android:id="@+id/SpTimesEveryday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txtDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duration :"
+                android:textSize="30dp" />
+            <Spinner
+                android:id="@+id/SpDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:text="insert"
+            android:textSize="50dp"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/btncancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:text="cancel"
+            android:textSize="50dp"
+            />
+    </LinearLayout>
+</ScrollView>
